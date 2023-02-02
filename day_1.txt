@@ -1,0 +1,58 @@
+#Datatypes in 'c'
+
+1.int->signed int,unsigned int(4 bytes)
+2.chr->signed chr,unsigned chr(1 byte)
+3.float->4bytes
+4.long->signed,unsigned(4bytes)
+5.short->signed,unsigned(2 bytes)
+6.double->8bytes
+
+signed datatypes start from - to...
+unsigned datatypes start from 0 to...
+
+#Ranges for signed and unsigned datatypes
+
+signed chr= -128 to +127
+unsigned chr= 0 to +255
+signed short= -32768 to 32767
+unsigned short= 0 to 65535
+signed int = -2147483648 to 2147483647
+unsigned int = o to 4294967295
+
+*c-language follows ASCII table
+*python follows UNICODE table
+by using unicode table we can print our name in Telugu
+
+#Difference between compiler and interpreter
+
+compiler stands the entire program during the scanning process if any single bug is occurred,entire program was blocked.(c,c++)
+In interpreter if anyline has an issue,it skip that line and executes the remaining code. (python,php,html,css,javascript,node.js,react.js)
+  both compiler&interpreter (java)
+
+import keyword
+print(keyword.kwlist)
+35 keywords in 3.11 version of python
+
+%-gives remainder
+//-floor division gives the result(integer value)
+/-division gives the result with pointing value
+ 
+#Bitwise operations
+
+<<left shift means *
+>>right shift means//
+
+#Logical operators
+1.and   2.or
+
+
+
+
+
+
+
+
+
+
+
+
