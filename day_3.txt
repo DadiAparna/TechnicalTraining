@@ -1,0 +1,71 @@
+#reverse
+by using this we can reverse the list
+
+#insert
+extra numbers can be added in the list
+
+#remove
+used to remove the item from the list
+
+#index
+finding the index of a number in the list
+
+
+
+#...................list of cubes till n number..............#
+
+for i in range(0,11):
+    print(i*i*i)
+
+
+
+Algorithm:step by step analysis
+garbage value = debug value
+
+num=[1,'a',[3,2,4],5]
+print(num([3][1]))
+
+#..................series(0,0,7,6,14,12,21,28....)............#
+
+term = int(input("enter the term"))
+if term %2==0:
+    term=term//2
+    print(6*(term-1))
+else:
+     term=term//2+1
+     print(7*(term-1))
+
+
+#...................armstrong number 3-digit....................#
+     
+num = int(input("enter the 3 digit number"))
+sum = 0
+i = num
+while i > 0:
+
+    n = i % 10
+    sum += n*n*n
+    i = i//10
+
+if (num == sum):
+    print('it is a armstrong number')
+else:
+    print('it is not a armstrong number')
+
+
+
+#......................armstrong number n-digit..................#
+
+num = int(input("enter the number"))
+number=len(str(num))
+sum = 0
+i = num
+while i > 0:
+    n = i % 10
+    sum += n**(number)
+    i = i//10
+
+if(num==sum):
+    print('it is a armstrong number')
+else:
+    print('it is not a armstrong number')
