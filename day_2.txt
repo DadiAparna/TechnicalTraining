@@ -1,0 +1,50 @@
+End() executes in same line
+sep(seperator)
+split() :getting multiple inputs from the users along with white space
+
+syntax:
+input().split(seperator,maxsplit)
+
+in double loop, each and everytime outer for iteration was initialised and each &everytime ,inner for iteration was re-initialised.
+
+#while loop syntax:
+
+initialisation,condition,incrementation
+ ex:
+a=1
+while(a=10):
+    print(a,"*5=",a*5)
+a=a+1
+
+#magical prime numbers
+
+example:
+19-91
+16-61
+
+#for loop
+
+for i in range(97,123):
+    print(chr(i),end=" ")
+
+#reverse order of alphabets
+    
+for i in range(122,96,-1):
+    print(chr(i),end=" ")
+
+
+#for loop
+
+age=[2,4,6,8]
+for i in range(len(age)):
+    print(i)
+
+
+
+#while loop
+
+i = 1
+n = 5
+while i <= n:
+    print(i)
+    i = i + 1
