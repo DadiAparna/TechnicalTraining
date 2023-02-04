@@ -1,0 +1,46 @@
+a=10
+b=1
+if (a>b):
+print("a")
+is a sipmle statement
+
+print("a")
+print("10")
+print("a is greater")
+print("b is smaller")
+is a compund statement
+
+##step by step evaluation of a interpreter is called "logical evaluation"
+
+*navigation programming starts from while loop and ends at class
+*functions cannot be concatinated
+*function in function is called nested function
+*functions are used for code reusability
+
+#types of functions
+1. no argument - no return
+2. no arg - return
+3. arg - no return
+4. arg - return
+
+#example of a multiple function
+
+def total(a,b):
+    result=(a+b)
+    
+    print("function result is",result)
+def diff(a,b):
+    result2=(a-b)
+    print("function result is",result2)
+
+a=int(input("enter the value of a"))
+b=int(input("enter the value of b"))
+total(a,b)
+diff(a,b)
+
+
+
+
+
+
+
