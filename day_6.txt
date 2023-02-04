@@ -1,0 +1,49 @@
+#Types of object oriented programming
+
+1.Abstract object oriented programming
+2.Inheritance
+3.Encapsulation
+4.Polymorphism
+5.Multi Threading
+6.Exceptional handling
+
+Inheritance: inherit properties from another class and then use them when required.
+
+#Types of Inheritance:
+1. Single
+2. Multiple
+3. Multi-level
+4. Hierarchical
+5. Hybrid
+* Multipath
+
+*Single Inheritance:class is derived only from a single parent class 
+
+*multi-leve inheritance example:
+   there is super class on the top and class is below that and under class there is a sub-class.
+
+*Heirarchical - prioritized
+
+*Hybrid inheritance satisfies more than one form of inheritance
+
+*no condition that all attributes should be same in multi-level inheritance
+
+->finding a number whether it is odd or even using single stance class
+
+class number:
+    even=0
+    def check(self,num):
+        if num%2 ==0:
+            self.even=1
+    def even_odd(self,num):
+        self.check(num)
+        if self.even==1:
+            print(num, "iseven")
+        else:
+            print(num, "is odd")
+
+n=number()
+n.even_odd(21)
+
+output is: 21 is odd
+
